@@ -1,8 +1,8 @@
 # Settings of NN models in the ablation study
-# CNN
+## CNN
 
-# FCN
+## FCN
 
-# U-Net
+## U-Net
 
-# U-Net+Trans
+## U-Net+Trans
