@@ -14,7 +14,7 @@ The selection of IIR filters for sEMG contaminant removal in this work are shown
 
 *[1] Machado et al., 2021; [2] Moody and Mark, 1984*
 
-*Note: $f_c$ denotes the cutoff frequency.*
+*Note:* $f_c$ *denotes the cutoff frequency.*
 
 ## TS+IIR
 TS+IIR applies TS and IIR filters for ECG and non-ECG contaminants, respectively. TS consists of three steps: ECG detection, template extraction, and ECG subtraction. For ECG detection, zero-padding is first performed on signal segments for 0.5 s at the front and end of the segments. We then calculate two moving averages (1 s and 0.1 s) and identify ECG-containing segments when these moving averages intersect twice within a specified time (more than 0.14 seconds in this work)~[3]. Since the sEMG segments are short (2 s), we choose a filtering approach to create ECG templates, using a 4th-order Butterworth high-pass filter with a cutoff frequency of 50 Hz~[4]. After subtraction of ECG artifacts, we further apply a 4th-order Butterworth high-pass filter with a cutoff frequency of 40 Hz to obtain the best results~[5, 6].
