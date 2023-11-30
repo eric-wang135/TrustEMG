@@ -1,5 +1,6 @@
 # Settings of NN models in the ablation study
 ## CNN
+
 The input signal is segmented into 200 points per segment, as we discover that smaller segments can yield better results in CNN. 
 After passing through the CNN, all the outputs are concatenated to form the denoised signal. 
 
