@@ -1,4 +1,4 @@
-# Settings of NN models in the ablation study
+# Architecture of other NN models in the ablation study
 
 The following NN models are used for the ablation study of TrustEMG-Net, including CNN, FCN, U-Net, and U-Net+Trans. 
 The kernels of the convolutional layers of these models are all 1-dimensional.
