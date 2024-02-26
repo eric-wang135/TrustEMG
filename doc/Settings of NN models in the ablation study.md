@@ -1,6 +1,6 @@
 # Architecture of other NN models in the ablation study
 
-The following NN models are used for the ablation study of TrustEMG-Net, including CNN, FCN, U-Net, and U-Net+Trans. 
+The following NN models are used for the ablation study of TrustEMG-Net, including CNN, FCN, and U-Net. 
 The kernels of the convolutional layers of these models are all 1-dimensional.
 
 ## CNN
@@ -39,6 +39,3 @@ The FCN's encoder and decoder each consist of 5 convolutional layers and 5 trans
 
 ## U-Net
 The architecture of the U-Net is the same as the U-Net part in TrustEMG-Net. The only difference is that the bottleneck here does not utilize a Transformer encoder.
-
-## U-Net+Trans
-The parameter setting of the U-Net+Trans is the same as TrustEMG-Net. The only difference is that the Transformer encoder here does not utilize a masking approach.
