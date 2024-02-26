@@ -21,7 +21,7 @@ The dimensions of the two fully connected layers are 400 and 200, respectively. 
 
 ## FCN
 
-The FCN's encoder and decoder each consist of 5 convolutional layers and 5 transposed convolutional layers, with detailed parameters shown as below. Except for the last transposed convolutional layer, each layer uses the ReLU activation function and batch normalization
+The FCN's encoder and decoder each consist of 5 convolutional layers and 5 transposed convolutional layers, with detailed parameters shown below. Except for the last transposed convolutional layer, each layer uses the ReLU activation function and batch normalization
 
 | Layer type and number     | Input channel | Filter number | Filter size | Stride |
 |---------------------------|---------------|---------------|-------------|--------|
